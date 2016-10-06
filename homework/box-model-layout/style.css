@@ -1,0 +1,33 @@
+.main-wrapper {
+	background: gray;
+	margin: 0 30px;
+	padding: 10px;
+}
+#navbar {
+	background: black;
+	text-align: center;
+	padding: 5px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.secondary-wrapper {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.p-wrapper {
+	background: orange;
+	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+#p-one {
+	color: blue;
+}
+#p-two {
+	color: green;
+}
+#p-three {
+	color: yellow;
+}
