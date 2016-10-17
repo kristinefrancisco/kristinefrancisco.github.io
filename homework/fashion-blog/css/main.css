@@ -1,7 +1,7 @@
 .container {
 	width: 720px;
 	padding: 54px;
-	font-family: "Lato";
+	font-family: "Lato", sans-serif;
 	line-height: 15px;
 }
 article {
@@ -12,11 +12,11 @@ img {
 	max-width: 100%; /* 100% width of parent */
 }
 h1 {
-	font-weight: 400;
+	font-weight: 300;
 	color: #DD0000;
 }
 h2, h3 {
-	font-weight: 400;
+	font-weight: 300;
 }
 .date {
 	color: #cccccc;
