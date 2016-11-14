@@ -1,0 +1,7 @@
+Using Jquery & JqueryUI:
+
+- find draggable object with mouse
+- designate droppable zone
+- drop draggable object into droppable zone = drop zone is highlighted (through animation/static color)
+- draggable disappears into drop zone
+- drop zone image changes according to specific draggable object dropped in (if/else if statements?)
