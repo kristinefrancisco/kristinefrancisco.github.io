@@ -1,0 +1,67 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: yellow;
+	overflow: hidden;
+	padding: 10px 25px;
+}
+
+header h1 {
+	float: left;
+	font-size: 30px;
+}
+
+header nav {
+	margin-top: 6px;
+	float: right;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+section {
+	background-color: black;
+	padding: 10px;
+	overflow: auto;
+}
+
+article {
+	background-color: white;
+	float: left;
+	width: 49.4%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/* targets the 1st article; nth-child(2) would target the 2nd article*/
+article:nth-child(1) {
+	margin-right: 10px;
+}
+
+article h1 {
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+@media (max-width: 862px) {
+	article {
+		float: none;
+		width: 100%;
+	}
+	article:nth-child(1) {
+	margin-bottom: 10px;
+}
+@media (max-width: 579px) {
+	header h1, header nav {
+	float: none;
+	text-align: center;
+}
+}

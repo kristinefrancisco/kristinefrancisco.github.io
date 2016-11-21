@@ -3,18 +3,22 @@
 <head>
 	<title>catghost</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
 </head>
 <body>
 	<h1>cat ghost</h1>
-	<h3><span class="curly">{</span> do her a solid and drag her some noms <span class="curly">}</span></h3>
+	<h3><span class="curly">{</span> drag her some noms <span class="curly">}</span></h3>
 	<div class="main-container">
-	  <div class="catghost"></div>
+	  <div class="catghost ui-widget-header" id="droppable"><p>Drop me here</p></div>
 	</div>
 	  <div class="food-container">
-	    <div class="food-item" id="donut"></div>
-	    <div class="food-item" id="pizza"></div>
-	    <div class="food-item" id="egg"></div>
-	    <div class="food-item" id="icepop"></div>
+	    <div class="food-item ui-widget-content" id="donut"><p>donut</p></div>
+	    <div class="food-item ui-widget-content" id="pizza"><p>pizza</p></div>
+	    <div class="food-item ui-widget-content" id="egg"><p>egg</p></div>
+	    <div class="food-item ui-widget-content" id="icepop"><p>icepop</p></div>
 	</div>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
