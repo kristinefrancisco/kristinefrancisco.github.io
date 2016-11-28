@@ -44,16 +44,16 @@ h3 {
   height: 100px;
   margin: 1px;
 }
-#donut {
+#egg {
   background: beige;
 }
-#pizza {
+#toast {
   background: red;
 }
-#egg {
+#avocado {
   background: yellow;
 }
-#icepop {
+#orange {
   background: blue;
 }
 @keyframes floating {
