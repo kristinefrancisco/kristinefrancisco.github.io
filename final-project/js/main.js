@@ -13,11 +13,13 @@
           }
       }
     });
-  } );
+  });
 
   // make food items draggable [X]
   // make catghost droppable [X]
-  // change droppable depending on which draggable is dropped 
+  // change droppable depending on which draggable is dropped: 
   //  - get id of draggable in play (ie. #pizza, #icepop, etc.) [X]
   //  - droppable output "pizza img"(etc.) if "#pizza"(etc.) draggable is dropped [X]
+  // create "POOF" hover state when draggable is dropped [ ]
+  // reset to OG cat ghost on click title [ ]
 
