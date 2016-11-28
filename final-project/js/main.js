@@ -7,7 +7,9 @@
     });
   } );
 
-  // make food items draggable
-  // make catghost droppable
+  // make food items draggable X
+  // make catghost droppable X
   // change droppable depending on which draggable is dropped
+  //  - read which draggable is dragged (ie. #pizza, #icepop, etc.)
+  //  - droppable output "pizza img"(etc.) if "#pizza"(etc.) draggable is dropped
 
