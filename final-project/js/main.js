@@ -1,5 +1,5 @@
   $( function() {
-    $( ".ui-widget-content" ).draggable({ revert: "valid" });
+    $( ".ui-widget-content" ).draggable({ opacity: 0.7, helper: "clone" });
     $( "#droppable" ).droppable({
       drop: function( event, ui ) {
             $(this).html( "DONUT CAT!");

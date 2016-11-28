@@ -4,23 +4,23 @@
 /* colors + font not final */
 
 body {
-  background: #fbcbc1;
+  background: #ffffff;
 }
 h1 {
   font-family: 'Libre Baskerville', serif; 
   text-align: center;
   font-size: 4em;
   line-height: .4;
-  color: #eaada1;
+  color: #aaaaaa;
 }
 h3 {
   font-family: "karla", sans-serif;
   font-size: 1em;
   text-align: center;
-  color: #eaada1;
+  color: #aaaaaa;
 }
 .curly {
-  color: #ffffff;
+  color: #000000;
 }
 .main-container {
   display: flex;
@@ -40,7 +40,6 @@ h3 {
   justify-content: center;
 }
 .food-item {
-  background: gray;
   width: 100px;
   height: 100px;
   margin: 1px;
@@ -68,3 +67,4 @@ h3 {
    transform: translateY(5px);
  }
 }
+
