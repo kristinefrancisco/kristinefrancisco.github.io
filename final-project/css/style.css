@@ -45,16 +45,16 @@ h3 {
   margin: 1px;
 }
 #egg {
-  background: beige;
-}
-#toast {
-  background: red;
-}
-#avocado {
   background: yellow;
 }
+#toast {
+  background: beige;
+}
+#avocado {
+  background: green;
+}
 #orange {
-  background: blue;
+  background: orange;
 }
 @keyframes floating {
  0% {
