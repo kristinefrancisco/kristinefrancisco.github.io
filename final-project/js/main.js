@@ -3,7 +3,7 @@
     $( '#droppable' ).droppable({
       drop: function( event, ui ) {
            if (ui.draggable.attr('id') == 'egg') { 
-            $(this).html( 'EGG CAT!');
+            $(this).attr('src', 'img/catghost-blink.svg');
           } else if (ui.draggable.attr('id') == 'toast') {
             $(this).html( 'TOAST CAT!');
           } else if (ui.draggable.attr('id') == 'avocado') {
@@ -14,9 +14,11 @@
       }
     });
   });
-
+     $('.reset').click(function(){
+    $('#droppable').attr('src','img/catghost.svg');
+    });
   // make food items draggable [X]
-  // make catghost droppable [X]
+  // make catghost droppable [X]       
   // change droppable depending on which draggable is dropped: 
   //  - get id of draggable in play (ie. #pizza, #icepop, etc.) [X]
   //  - droppable output "pizza img"(etc.) if "#pizza"(etc.) draggable is dropped [X]
