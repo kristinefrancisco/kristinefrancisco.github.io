@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Karla:400');
 
-/* colors + font not final */
-
 body {
-  background: #ffffff;
+  background: #a1ecff;
+  margin: 10% 0;
 }
 h1 {
-  font-family: 'Libre Baskerville', serif; 
+  font-family: 'Oswald', sans-serif; 
   text-align: center;
   font-size: 4em;
   line-height: .4;
-  color: #aaaaaa;
+  color: #ffffff;
 }
 h3 {
   font-family: "karla", sans-serif;
   font-size: 1em;
   text-align: center;
-  color: #aaaaaa;
+  color: #262626;
+}
+.blue-text {
+  color: #6cd6f1;
 }
 .curly {
-  color: #000000;
+  color: #ffffff;
 }
 .main-container {
   display: flex;
@@ -37,23 +39,20 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 20px;
 }
 .food-item {
   width: 100px;
   height: 100px;
   margin: 1px;
 }
-#egg {
-  background: yellow;
+.food-item img{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
-#toast {
-  background: beige;
-}
-#avocado {
-  background: green;
-}
-#orange {
-  background: orange;
+.onhover {
+  background: black;
 }
 @keyframes floating {
  0% {

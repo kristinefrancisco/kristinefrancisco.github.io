@@ -901,7 +901,6 @@ body .ui-tooltip {
 	border: 1px solid #c5c5c5;
 }
 .ui-widget-content {
-	background: #ffffff;
 	color: #333333;
 }
 .ui-widget-content a {
@@ -980,17 +979,14 @@ a.ui-button:active,
 	border: 1px solid #003eff;
 	background: #007fff;
 	font-weight: normal;
-	color: #ffffff;
 }
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
 	border: #003eff;
-	background-color: #ffffff;
 }
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -1075,7 +1071,8 @@ a.ui-button:active,
 }
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-	background-image: url("images/ui-icons_ffffff_256x240.png");
+	
+
 }
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
