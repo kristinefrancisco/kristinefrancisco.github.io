@@ -4,7 +4,7 @@
   // change droppable img src depending on which draggable is dropped [X]
   // create tongue hover state when draggable is dropped [X]
   // reset to OG cat ghost [X]
-
+$(document).ready(function () {
 // MOUSEOVER + MOUSEOUT - OG 
   $('#droppable').mouseover(function(){
     $(this).attr('src','img/catghost-blink.svg');
@@ -65,3 +65,4 @@
           }   
       }
     });
+})
